@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "sdkVersion": "27.0.0",
+    "splash": {
+      "image": "./publish/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#737373"
+    },
+    "icon": "./publish/app-icon.png",
+    "name": "Toilep",
+    "slug": "Toilep",
+    "description": "Toilep is platform anyone can post tailet information.",
+    "version": "1.0.1",
+    "primaryColor": "#737373",
+    "privacy": "public",
+    "ios": {
+      "bundleIdentifier": "todo.change.this"
+    },
+    "android": {
+      "package": "todo.change.this"
+    }
+  }
+}

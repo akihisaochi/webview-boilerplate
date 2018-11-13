@@ -1,0 +1,23 @@
+.App {
+  text-align: center;
+}
+.primary {
+  &-color {  color: #fbb040; }
+  &-bg { background: #fbb040; }
+}
+.pc-hidden-over-450px {
+  display: block;
+}
+.sp-hidden-over-640px {
+  display: block;
+}
+@media screen and (min-width: 450px) {
+  .pc-hidden-over-450px {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .sp-hidden-over-640px {
+    display: none;
+  }
+}
